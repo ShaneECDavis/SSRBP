@@ -70,7 +70,7 @@ const serverConfig = {
       },
       {
         test: /\.css$/,
-        user: [{
+        use: [{
           loader: "css-loader/locals"
         }
         ]
@@ -84,4 +84,4 @@ const serverConfig = {
   }
 }
 
-module.exports = [browserConfig, serverConfig]
+module.exports = [clientConfig, serverConfig]
