@@ -13,13 +13,15 @@ body {
   height: 150px;
   padding: 20px;
   color: white;
+}
+
+.App-header h2 {
   -webkit-transition: -webkit-transform 2s;
   transition: -webkit-transform 2s;
   transition: transform 2s;
   transition: transform 2s, -webkit-transform 2s;
-  
 }
-.App-header:hover{
+.App-header h2:hover{
    -webkit-transform: scale(2);
            transform: scale(2);
 }

@@ -22190,6 +22190,7 @@ module.exports = ReactDOMInvalidARIAHook;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App_css__ = __webpack_require__(185);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__App_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Navbar__ = __webpack_require__(187);
 var _jsxFileName = "/Users/PudgyTech/Desktop/SideGigs/SSRBP/src/shared/App.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -22199,6 +22200,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -22219,7 +22221,7 @@ var App = function (_Component) {
         "div",
         { className: "App", __source: {
             fileName: _jsxFileName,
-            lineNumber: 8
+            lineNumber: 9
           },
           __self: this
         },
@@ -22227,16 +22229,23 @@ var App = function (_Component) {
           "div",
           { className: "App-header", __source: {
               fileName: _jsxFileName,
-              lineNumber: 9
+              lineNumber: 10
             },
             __self: this
           },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_Navbar__["a" /* default */], {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 11
+            },
+            __self: this
+          }),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             "h2",
             {
               __source: {
                 fileName: _jsxFileName,
-                lineNumber: 10
+                lineNumber: 12
               },
               __self: this
             },
@@ -22247,11 +22256,11 @@ var App = function (_Component) {
           "p",
           { className: "App-intro", __source: {
               fileName: _jsxFileName,
-              lineNumber: 12
+              lineNumber: 14
             },
             __self: this
           },
-          "SSR is neat "
+          "SSR is neat"
         )
       );
     }
@@ -22267,6 +22276,35 @@ var App = function (_Component) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 186 */,
+/* 187 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _jsxFileName = '/Users/PudgyTech/Desktop/SideGigs/SSRBP/src/shared/components/Navbar.js',
+    _this = this;
+
+
+
+var Navbar = function Navbar() {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 4
+      },
+      __self: _this
+    },
+    'NavBar'
+  );
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (Navbar);
 
 /***/ })
 /******/ ]);

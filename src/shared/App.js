@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css"
+import Navbar from './components/Navbar'
 
 class App extends Component {
   render() {
@@ -7,9 +8,10 @@ class App extends Component {
 
       <div className="App">
         <div className="App-header">
+        <Navbar />
           <h2>Welcome to React in the Server</h2>
         </div>
-        <p className="App-intro">SSR is neat </p>
+        <p className="App-intro">SSR is neat</p>
       </div>
     )
   }
