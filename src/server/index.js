@@ -19,9 +19,10 @@ app.get("*", (req, res) => {
 
   res.send(`
   <!DOCTYPE html>
+  <html>
     <head>
         <title>${title}</title>
-        <link rel="stylesheet" href="/css/main.css">
+
         ${styles}
         <script src="/bundle.js" defer></script>
     </head>

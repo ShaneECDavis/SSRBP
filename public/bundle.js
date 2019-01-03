@@ -22330,7 +22330,10 @@ var Navbar = function Navbar() {
 
 /* harmony default export */ __webpack_exports__["a"] = (Navbar);
 
-var Bar = __WEBPACK_IMPORTED_MODULE_1_styled_components__["a" /* default */].div(_templateObject);
+var Bar = __WEBPACK_IMPORTED_MODULE_1_styled_components__["a" /* default */].div.withConfig({
+  displayName: 'Navbar__Bar',
+  componentId: 'x9es9w-0'
+})(_templateObject);
 
 /***/ }),
 /* 188 */

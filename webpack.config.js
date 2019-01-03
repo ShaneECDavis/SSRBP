@@ -1,6 +1,7 @@
 const webpack = require("webpack")
 const ExtractTextPlugin = require("extract-text-webpack-plugin")
 const autoprefixer = require("autoprefixer")
+const nodeExternals = require("webpack-node-externals")
 
 
 const clientConfig = {
@@ -56,6 +57,15 @@ const serverConfig = {
     filename: "server.js",
     libraryTarget: "commonjs2"
   },
+  target: 'node',
+  externals: nodeExternals(),
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: `'production'`
+      }
+    })
+  ],
   devtool: "cheap-module-source-map",
   module: {
     rules: [
